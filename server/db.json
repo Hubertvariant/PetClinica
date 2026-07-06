@@ -9,6 +9,10 @@
       "ownerName": "João Silva",
       "weight": 32.4,
       "avatar": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=300",
+      "birthDate": "2023-04-12",
+      "allergies": "Frango, picada de pulga sazonal (DAPP).",
+      "preExistingConditions": "Displasia coxofemoral leve (sob monitoramento).",
+      "medicalSummary": "Histórico geral de excelente saúde. Apresenta otites externas esporádicas no verão por contato com água e sensibilidade gastrointestinal resolvida com alimentação balanceada.",
       "vaccinationHistory": [
         {
           "id": "vac-1",
@@ -75,6 +79,10 @@
       "ownerName": "Beatriz Souza",
       "weight": 4.1,
       "avatar": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=300",
+      "birthDate": "2024-02-15",
+      "allergies": "Nenhuma alergia conhecida relatada.",
+      "preExistingConditions": "Nenhuma condição médica preexistente.",
+      "medicalSummary": "Castração realizada com sucesso em Nov/2025. Cicatrização impecável, comportamento dócil, excelente controle de ganho de peso pós-castração.",
       "vaccinationHistory": [
         {
           "id": "vac-5",
@@ -115,6 +123,10 @@
       "ownerName": "Mariana Ramos",
       "weight": 3.8,
       "avatar": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=300",
+      "birthDate": "2025-05-10",
+      "allergies": "Saliva de pulga (DAPP).",
+      "preExistingConditions": "Luxação de patela grau I em membro posterior esquerdo.",
+      "medicalSummary": "Filhote acompanhado desde as primeiras vacinas. Apresentou quadro de dermatite alérgica em Out/2025, controlado com Simparic e xampus calmantes de aveia.",
       "vaccinationHistory": [
         {
           "id": "vac-7",
@@ -164,6 +176,10 @@
       "ownerName": "Roberto Lima",
       "weight": 3.5,
       "avatar": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&q=80&w=300",
+      "birthDate": "2022-03-20",
+      "allergies": "Nenhuma alergia conhecida registrada.",
+      "preExistingConditions": "Predisposição genética para Doença Renal Crônica (DRC).",
+      "medicalSummary": "Acompanhamento nutricional preventivo focado em rações úmidas especiais. Realizou profilaxia dentária (limpeza de tártaro) com sucesso em Mar/2026.",
       "vaccinationHistory": [
         {
           "id": "vac-10",

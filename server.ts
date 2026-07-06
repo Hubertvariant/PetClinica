@@ -78,7 +78,11 @@ async function startServer() {
         ? "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=300"
         : "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=300"),
       vaccinationHistory: req.body.vaccinationHistory || [],
-      medicalHistory: req.body.medicalHistory || []
+      medicalHistory: req.body.medicalHistory || [],
+      birthDate: req.body.birthDate || "",
+      allergies: req.body.allergies || "",
+      preExistingConditions: req.body.preExistingConditions || "",
+      medicalSummary: req.body.medicalSummary || ""
     };
     db.pets.push(newPet);
     await saveDb(db);

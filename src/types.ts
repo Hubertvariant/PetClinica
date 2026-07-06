@@ -28,6 +28,10 @@ export interface Pet {
   avatar: string;
   medicalHistory: MedicalRecord[];
   vaccinationHistory: Vaccine[];
+  birthDate?: string;
+  allergies?: string;
+  preExistingConditions?: string;
+  medicalSummary?: string;
 }
 
 export interface Appointment {

@@ -96,6 +96,18 @@ export default function App() {
     return newPet;
   };
 
+  const handleUpdatePet = async (id: string, petData: Partial<Pet>) => {
+    const res = await fetch(`/api/pets/${id}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(petData)
+    });
+    if (!res.ok) throw new Error("Erro ao atualizar pet");
+    const updatedPet = await res.json();
+    setPets(prev => prev.map(p => p.id === id ? updatedPet : p));
+    return updatedPet;
+  };
+
   const handleAddVaccine = async (petId: string, vaccineData: Partial<Pet>) => {
     const res = await fetch(`/api/pets/${petId}/vaccines`, {
       method: 'POST',
@@ -393,6 +405,7 @@ export default function App() {
                 onAddPet={handleAddPet}
                 onAddVaccine={handleAddVaccine}
                 onAddMedicalRecord={handleAddMedicalRecord}
+                onUpdatePet={handleUpdatePet}
               />
             )}
 
