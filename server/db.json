@@ -1,0 +1,327 @@
+{
+  "pets": [
+    {
+      "id": "pet-1",
+      "name": "Thor",
+      "type": "dog",
+      "breed": "Golden Retriever",
+      "age": "3 anos",
+      "ownerName": "João Silva",
+      "weight": 32.4,
+      "avatar": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=300",
+      "vaccinationHistory": [
+        {
+          "id": "vac-1",
+          "name": "V10 (Vanguard)",
+          "dateAdministered": "2026-01-15",
+          "status": "completed",
+          "batch": "V10-982X",
+          "veterinarian": "Dr. Carlos Silva",
+          "nextDoseDate": "2027-01-15"
+        },
+        {
+          "id": "vac-2",
+          "name": "Anti-Rábica",
+          "dateAdministered": "2026-02-10",
+          "status": "completed",
+          "batch": "RAB-203Z",
+          "veterinarian": "Dra. Ana Costa",
+          "nextDoseDate": "2027-02-10"
+        },
+        {
+          "id": "vac-3",
+          "name": "Gripe (Traqueobronquite)",
+          "dateAdministered": "2025-08-20",
+          "status": "completed",
+          "batch": "GRP-114A",
+          "veterinarian": "Dr. Carlos Silva",
+          "nextDoseDate": "2026-08-20"
+        },
+        {
+          "id": "vac-4",
+          "name": "Giárdia",
+          "dateAdministered": "2026-06-01",
+          "status": "pending",
+          "batch": "GIA-556B",
+          "veterinarian": "Dr. Carlos Silva",
+          "nextDoseDate": "2026-07-20"
+        }
+      ],
+      "medicalHistory": [
+        {
+          "id": "med-1",
+          "date": "2026-05-14",
+          "diagnosis": "Otite Externa Bilateral",
+          "treatment": "Limpeza semanal + Otomax gotas (5 gotas em cada ouvido, de 12/12h por 10 dias).",
+          "veterinarian": "Dr. Carlos Silva",
+          "notes": "Retorno em 14 dias para reavaliação dos canais auditivos."
+        },
+        {
+          "id": "med-2",
+          "date": "2026-01-15",
+          "diagnosis": "Check-up Anual & Vacinação",
+          "treatment": "Exame de sangue completo (hemograma + bioquímico) sem alterações.",
+          "veterinarian": "Dr. Carlos Silva",
+          "notes": "Animal ativo, score corporal 3/5 (ideal), dentição limpa."
+        }
+      ]
+    },
+    {
+      "id": "pet-2",
+      "name": "Mel",
+      "type": "cat",
+      "breed": "SDR (Vira-lata)",
+      "age": "2 anos",
+      "ownerName": "Beatriz Souza",
+      "weight": 4.1,
+      "avatar": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=300",
+      "vaccinationHistory": [
+        {
+          "id": "vac-5",
+          "name": "Quádrupla Felina (V4)",
+          "dateAdministered": "2025-11-02",
+          "status": "completed",
+          "batch": "V4F-774D",
+          "veterinarian": "Dra. Ana Costa",
+          "nextDoseDate": "2026-11-02"
+        },
+        {
+          "id": "vac-6",
+          "name": "Anti-Rábica",
+          "dateAdministered": "2025-11-02",
+          "status": "completed",
+          "batch": "RAB-203Z",
+          "veterinarian": "Dra. Ana Costa",
+          "nextDoseDate": "2026-11-02"
+        }
+      ],
+      "medicalHistory": [
+        {
+          "id": "med-3",
+          "date": "2025-11-02",
+          "diagnosis": "Check-up Geral & Castração Recente",
+          "treatment": "Retirada de pontos realizada. Cicatrização cirúrgica excelente.",
+          "veterinarian": "Dra. Ana Costa",
+          "notes": "Recomenda-se ração para gatos castrados para controle de peso."
+        }
+      ]
+    },
+    {
+      "id": "pet-3",
+      "name": "Pipoca",
+      "type": "dog",
+      "breed": "Spitz Alemão / Lulu",
+      "age": "1 ano",
+      "ownerName": "Mariana Ramos",
+      "weight": 3.8,
+      "avatar": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=300",
+      "vaccinationHistory": [
+        {
+          "id": "vac-7",
+          "name": "V10 (Vanguard) - Dose 1",
+          "dateAdministered": "2025-09-10",
+          "status": "completed",
+          "batch": "V10-900L",
+          "veterinarian": "Dr. Carlos Silva",
+          "nextDoseDate": "2025-10-01"
+        },
+        {
+          "id": "vac-8",
+          "name": "V10 (Vanguard) - Dose 2",
+          "dateAdministered": "2025-10-01",
+          "status": "completed",
+          "batch": "V10-901L",
+          "veterinarian": "Dr. Carlos Silva",
+          "nextDoseDate": "2025-10-22"
+        },
+        {
+          "id": "vac-9",
+          "name": "V10 (Vanguard) - Dose 3",
+          "dateAdministered": "2025-10-22",
+          "status": "completed",
+          "batch": "V10-902L",
+          "veterinarian": "Dr. Carlos Silva",
+          "nextDoseDate": "2026-10-22"
+        }
+      ],
+      "medicalHistory": [
+        {
+          "id": "med-4",
+          "date": "2025-10-22",
+          "diagnosis": "Dermatite Alérgica de Picada de Pulga (DAPP)",
+          "treatment": "Aplicação de Simparic 10mg + shampoo hidratante de aveia 2x por semana.",
+          "veterinarian": "Dr. Carlos Silva",
+          "notes": "Manter proteção contra ectoparasitas rigorosamente em dia."
+        }
+      ]
+    },
+    {
+      "id": "pet-4",
+      "name": "Luna",
+      "type": "cat",
+      "breed": "Siamês",
+      "age": "4 anos",
+      "ownerName": "Roberto Lima",
+      "weight": 3.5,
+      "avatar": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&q=80&w=300",
+      "vaccinationHistory": [
+        {
+          "id": "vac-10",
+          "name": "Quíntupla Felina (V5)",
+          "dateAdministered": "2026-03-20",
+          "status": "completed",
+          "batch": "V5F-911E",
+          "veterinarian": "Dra. Ana Costa",
+          "nextDoseDate": "2027-03-20"
+        }
+      ],
+      "medicalHistory": [
+        {
+          "id": "med-5",
+          "date": "2026-03-20",
+          "diagnosis": "Limpeza de Tártaro (Protelise Dentária)",
+          "treatment": "Procedimento sob anestesia inalatória. Profilaxia concluída sem extrações.",
+          "veterinarian": "Dra. Ana Costa",
+          "notes": "Iniciar escovação com pasta enzimática pet 3x por semana."
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "app-1",
+      "petId": "pet-1",
+      "petName": "Thor",
+      "petType": "dog",
+      "date": "2026-07-08",
+      "timeSlot": "09:30",
+      "status": "scheduled",
+      "paymentStatus": "paid",
+      "type": "consultation",
+      "cost": 150,
+      "paymentMethod": "pix",
+      "transactionId": "TX-99882211"
+    },
+    {
+      "id": "app-2",
+      "petId": "pet-2",
+      "petName": "Mel",
+      "petType": "cat",
+      "date": "2026-07-10",
+      "timeSlot": "14:00",
+      "status": "scheduled",
+      "paymentStatus": "pending",
+      "type": "vaccination",
+      "cost": 90
+    },
+    {
+      "id": "app-3",
+      "petId": "pet-3",
+      "petName": "Pipoca",
+      "petType": "dog",
+      "date": "2026-07-06",
+      "timeSlot": "11:00",
+      "status": "completed",
+      "paymentStatus": "paid",
+      "type": "checkup",
+      "cost": 120,
+      "paymentMethod": "credit",
+      "transactionId": "TX-11223344"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "fb-1",
+      "author": "João Silva",
+      "petName": "Thor",
+      "petType": "dog",
+      "rating": 5,
+      "text": "Atendimento excepcional! O Dr. Carlos tratou o Thor como se fosse dele. O prontuário digital e o histórico de vacinas salvam vidas!",
+      "date": "2026-06-20",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=100"
+    },
+    {
+      "id": "fb-2",
+      "author": "Beatriz Souza",
+      "petName": "Mel",
+      "petType": "cat",
+      "rating": 5,
+      "text": "A melhor clínica veterinária de São Paulo! A Mel fez cirurgia de castração lá e teve uma recuperação perfeita. O chat de dúvidas é incrivelmente rápido e atencioso.",
+      "date": "2026-05-18",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100"
+    },
+    {
+      "id": "fb-3",
+      "author": "Mariana Ramos",
+      "petName": "Pipoca",
+      "petType": "dog",
+      "rating": 4,
+      "text": "Ótima infraestrutura e profissionais competentes. O sistema de agendamento online facilita muito, agendei em menos de um minuto e já fiz o Pix do pagamento.",
+      "date": "2026-06-02",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=100"
+    }
+  ],
+  "petgram": [
+    {
+      "id": "post-1",
+      "petName": "Thor",
+      "petType": "dog",
+      "imageUrl": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=600",
+      "caption": "Hoje foi dia de consulta de rotina e o Thor se comportou super bem! Ganhou até petisco do Dr. Carlos. 🐾❤️ #GoldenRetriever #ConsultaEmDia #PacienteDoMes",
+      "likes": 42,
+      "comments": [
+        {
+          "id": "c-1",
+          "author": "Dra. Ana Costa",
+          "text": "Um verdadeiro príncipe! Sempre muito alegre nas consultas.",
+          "date": "2026-07-01"
+        },
+        {
+          "id": "c-2",
+          "author": "Beatriz Souza",
+          "text": "Que lindeza! Mel manda lambidas pro Thor!",
+          "date": "2026-07-02"
+        }
+      ],
+      "date": "2026-07-01",
+      "tag": "Consulta de Rotina"
+    },
+    {
+      "id": "post-2",
+      "petName": "Mel",
+      "petType": "cat",
+      "imageUrl": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&q=80&w=600",
+      "caption": "Pós-operatório concluído com nota 10! A Mel já está esbanjando estilo com seus óculos novos (brincadeira, só pose!). Obrigada Dra. Ana Costa!",
+      "likes": 56,
+      "comments": [
+        {
+          "id": "c-3",
+          "author": "Dr. Carlos Silva",
+          "text": "Elegância pura! Ficamos muito felizes com a recuperação dela.",
+          "date": "2026-06-25"
+        }
+      ],
+      "date": "2026-06-25",
+      "tag": "Pós-Operatório"
+    },
+    {
+      "id": "post-3",
+      "petName": "Pipoca & Friends",
+      "petType": "dog",
+      "imageUrl": "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&q=80&w=600",
+      "caption": "Amigos de petshop! O Pipoca fez novos amigos esperando o banho de ozônio na Pet Clinica. Espaço super aconchegante! 🛁🐶",
+      "likes": 31,
+      "comments": [],
+      "date": "2026-06-15",
+      "tag": "Estética & Spa"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-1",
+      "sender": "bot",
+      "text": "Olá! Eu sou o Dr. Silva, o veterinário responsável da Pet Clinica. Como posso ajudar você e seu cãozinho ou gatinho hoje?",
+      "timestamp": "08:45"
+    }
+  ]
+}

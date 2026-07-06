@@ -1,0 +1,6 @@
+{
+  "name": "Pet Clinica",
+  "description": "Sistema completo para gestão de clínicas veterinárias com agendamento online, prontuário digital para cães e gatos, histórico de vacinas, chat com veterinário inteligente, painel de feedback, galeria de pacientes (PetGram), pagamentos integrados e relatórios de desempenho.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

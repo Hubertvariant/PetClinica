@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Overriding standard color shades with the Vibrant Palette core colors */
+  --color-indigo-50: #FFF0F0; /* Warm Coral accent bg */
+  --color-indigo-100: #FFE3E3;
+  --color-indigo-200: #FFC9C9;
+  --color-indigo-500: #FF8585;
+  --color-indigo-600: #4834D4; /* Vibrant brand purple */
+  --color-indigo-700: #3b2ab8;
+  --color-indigo-850: #2D3436;
+  --color-indigo-900: #1d2122;
+
+  --color-slate-50: #F9FAFB; /* Vibrant general background */
+  --color-slate-100: #F3F4F6;
+  --color-slate-200: #E5E7EB;
+  --color-slate-400: #9CA3AF;
+  --color-slate-500: #6B7280;
+  --color-slate-700: #4B5563;
+  --color-slate-800: #2D3436; /* Heavy body text */
+  --color-slate-900: #1a1e1f;
+
+  --color-emerald-50: #F0FDF4;
+  --color-emerald-500: #6AB04C; /* Vibrant green */
+  --color-emerald-600: #55913b;
+  --color-emerald-700: #416e2d;
+
+  --color-green-50: #F0FDF4;
+  --color-green-500: #6AB04C;
+  --color-green-600: #55913b;
+  --color-green-700: #416e2d;
+
+  --color-amber-50: #FEF3C7;
+  --color-amber-500: #F0932B; /* Vibrant orange */
+  --color-amber-600: #D97706;
+  --color-amber-700: #B45309;
+
+  --color-yellow-400: #F0932B;
+  --color-yellow-500: #F0932B;
+
+  --color-rose-50: #FFF5F5;
+  --color-rose-500: #EB4D4B; /* Vibrant red */
+  --color-rose-600: #D32F2F;
+  --color-rose-700: #C2185B;
+  
+  --color-red-500: #EB4D4B;
+  --color-red-600: #D32F2F;
+
+  /* Custom palette aliases */
+  --color-brand-coral: #FF6B6B;
+  --color-brand-purple: #4834D4;
+  --color-brand-dark: #2D3436;
+  --color-brand-green: #6AB04C;
+  --color-brand-orange: #F0932B;
+  --color-brand-red: #EB4D4B;
+  
+  /* Overwrite default border-radii for heavy rounded appearance */
+  --radius-xl: 1rem;       /* 16px */
+  --radius-2xl: 1.5rem;    /* 24px */
+  --radius-3xl: 2.1rem;    /* 33.6px */
+  
+  /* Vibrant shadows */
+  --shadow-xs: 0 1px 3px rgba(45, 52, 54, 0.02);
+  --shadow-sm: 0 4px 15px rgba(45, 52, 54, 0.03);
+  --shadow-md: 0 8px 25px rgba(45, 52, 54, 0.05);
+  --shadow-lg: 0 15px 40px rgba(45, 52, 54, 0.08);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F9FAFB;
+  color: #2D3436;
+}
+
+/* Dynamic styling for the cards matching design rounded corners */
+.rounded-card-heavy {
+  border-radius: 2rem !important;
+}
+
+.rounded-panel-heavy {
+  border-radius: 2.5rem !important;
+}
